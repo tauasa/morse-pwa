@@ -1,0 +1,40 @@
+{
+  "name": "Morse Code Converter",
+  "short_name": "Morse",
+  "description": "Encode and decode Morse code with audio playback",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#0d0d0d",
+  "orientation": "any",
+  "categories": ["utilities", "productivity"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Encode text",
+      "short_name": "Encode",
+      "url": "/?action=encode",
+      "description": "Open the app ready to encode text to Morse"
+    },
+    {
+      "name": "Decode Morse",
+      "short_name": "Decode",
+      "url": "/?action=decode",
+      "description": "Open the app ready to decode Morse to text"
+    }
+  ]
+}

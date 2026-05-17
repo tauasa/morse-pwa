@@ -45,6 +45,6 @@ def make_png(size, outpath):
         f.write(png)
     print(f'Created {outpath} ({len(png)} bytes)')
 
-make_png(192, './icons/icon-192.png')
-make_png(512, './icons/icon-512.png')
+make_png(192, '../icons/icon-192.png')
+make_png(512, '../icons/icon-512.png')
 "

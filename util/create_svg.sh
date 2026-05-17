@@ -2,7 +2,7 @@
 python3 << 'EOF'
 import os
 
-os.makedirs('./icons', exist_ok=True)
+os.makedirs('../icons', exist_ok=True)
 
 def make_icon_svg(size):
     """Vintage-style morse icon: amber dot-dash on dark background."""
@@ -40,7 +40,7 @@ for sz in [192, 512]:
     svg = make_icon_svg(sz)
     # Write as SVG (rename to .png for browsers that accept SVG icons, 
     # or convert separately)
-    with open(f'./icon-{sz}.svg', 'w') as f:
+    with open(f'../icons/icon-{sz}.svg', 'w') as f:
         f.write(svg)
     print(f"icon-{sz}.svg written")
 EOF

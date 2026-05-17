@@ -23,4 +23,5 @@ Progressive Web App that converts text ↔ Morse code with optional audio playba
 - Digits: 0–9
 - Punctuation: `. , ? ! - / @ ( )`
 
-### Supported Characters
+### Run
+To operate properly this app needs to be run from an HTTP server running SSL

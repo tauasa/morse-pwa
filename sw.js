@@ -8,11 +8,11 @@ const CACHE_NAME = 'morse-pwa-v1';
 
 const PRECACHE_URLS = [
   '/',
-  'index.html',
-  'style.css',
-  'app.js',
-  'manifest.json',
-  'icons/icon-192.png',
+  '/index.html',
+  '/styles.css',
+  '/app.js',
+  '/manifest.json',
+  '/icons/icon-192.png',
   'icons/icon-512.png',
 ];
 

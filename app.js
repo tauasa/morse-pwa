@@ -1,5 +1,5 @@
 /**
- * Morse Code Converter — Progressive Web App
+ * Morse Code Converter Progressive Web App
  * Main application module.
  *
  * Modules:
